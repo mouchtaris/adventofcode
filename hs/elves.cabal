@@ -25,9 +25,12 @@ source-repository head
 
 library
   exposed-modules:
+      Elf.Bingo
+      Elf.Bingo2
       Elf.Navigator
       Elf.Radiation
       Elf.Sonar
+      Elf.Thermal
       Elf.Util
       Tf.Hello
   other-modules:

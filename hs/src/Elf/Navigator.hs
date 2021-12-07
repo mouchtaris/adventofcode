@@ -7,9 +7,12 @@ module Elf.Navigator
   )
 where
 
-import Control.Arrow ((>>>))
-import Data.Functor ((<&>))
-import Data.List.Split (chunksOf, splitOneOf)
+import Elf.Util
+  ( chunksOf,
+    splitOneOf,
+    (<&>),
+    (>>>),
+  )
 
 data Command
   = Up {units :: Int}
